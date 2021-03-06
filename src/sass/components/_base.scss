@@ -1,17 +1,62 @@
-/**
- * @section Base Styles
- */
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap");
 
 body {
-	font-size: 125%;
-	margin: 0 auto;
-	max-width: 42em;
-	width: 88%;
+  color: #1a1a1a;
+  font-family: "Maven Pro", sans-serif;
 }
 
-input,
-textarea,
-select,
-button {
-	font: inherit;
+h1 {
+  font-size: 54px;
+  line-height: 54px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.gradient-bg {
+  background: #511de5;
+  background: linear-gradient(90deg, #511de5 0%, #009eff 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #511de5 0%, #009eff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-grey-300 {
+  background-color: $light-grey-300;
+}
+
+.btn {
+  padding: 12px 24px;
+
+  &.light-grey {
+    background-color: $light-grey-bg-color;
+  }
+
+  &.white {
+    background-color: $white;
+
+    &:hover {
+      color: $white;
+      background: #511de5;
+      background: linear-gradient(90deg, #511de5 0%, #009eff 100%);
+    }
+  }
+
+  &.ls-1 {
+    letter-spacing: 4px;
+  }
+
+  .arrow {
+    margin-left: 20px;
+  }
+}
+
+section {
+  padding: 100px 0;
 }

@@ -1,0 +1,55 @@
+.intro-quote {
+  background-color: $light-grey-bg-color;
+  padding: 100px 0;
+  overflow: hidden;
+  height: 100%;
+  transform: skew(0, -4deg);
+
+  .container {
+    transform: skew(0, 4deg);
+  }
+}
+
+.quote-bg {
+  position: relative;
+
+  .quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+}
+
+.i-quote {
+  .card {
+    background-image: url(../../svg/quote-sign.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 35px -35px;
+    padding-top: 60px;
+    opacity: 0.5;
+    border-color: $light-grey-400;
+
+    &:hover {
+      opacity: 1;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+      blockquote {
+        background: linear-gradient(to right, #511de5 0%, #009eff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .name,
+    .company {
+      font-size: 14px;
+    }
+  }
+
+  blockquote {
+    margin-bottom: 60px;
+  }
+}

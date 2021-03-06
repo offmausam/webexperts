@@ -1,0 +1,30 @@
+.features {
+  padding: 100px 0;
+
+  h3 {
+    font-size: 55px;
+    line-height: 95%;
+  }
+}
+
+.feature-card {
+  background-image: url(../img/illustration_for_basekit.png);
+  background-position: 123% 123%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  padding: 70px;
+}
+
+.huge-text {
+  font-size: 80px;
+
+  span {
+    font-size: 16px;
+    font-weight: normal;
+    color: $dark-text-color;
+  }
+}
+
+.client-logo {
+  margin-top: 50px;
+}

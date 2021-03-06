@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1087" viewBox="0 0 1920 1087">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1087" transform="translate(0 8152)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.825" y1="0.5" x2="0.175" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009eff"/>
+      <stop offset="1" stop-color="#511de5"/>
+    </linearGradient>
+  </defs>
+  <g id="footer" transform="translate(0 -8152)" clip-path="url(#clip-path)">
+    <g id="footer-2" data-name="footer">
+      <path id="Rectangle_13" data-name="Rectangle 13" d="M-57.968,6318.757C316.861,7207.5,1098.917,6870.174,1541.544,7513.642c46.629-180.642-42.559,6.475-131.746,193.592L-325.53,6880.108Z" transform="translate(0 1867)" fill="#3a41ec"/>
+      <path id="Rectangle_13_copy_2" data-name="Rectangle 13 copy 2" d="M877.353,6584c377.412,488.594,710.206,56.575,1071.653,364.645-13.459-132.07-20.575,15.641-27.691,163.353L856,7027.135Q866.679,6805.567,877.353,6584Z" transform="translate(0 1867)" fill="#3a41ec"/>
+      <path id="Rectangle_13_copy" data-name="Rectangle 13 copy" d="M-2,6669c720.755,723.625,1281.579,0,1958,440.739-35.632-206.734-35.632,27.271-35.632,261.275H-2Z" transform="translate(0 1867)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

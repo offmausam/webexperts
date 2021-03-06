@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="230" viewBox="0 0 1920 230">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.825" y1="0.5" x2="0.175" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009eff"/>
+      <stop offset="1" stop-color="#511de5"/>
+    </linearGradient>
+  </defs>
+  <g id="highlight-background" transform="translate(0 -1060)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="230" transform="translate(0 1060)" fill="url(#linear-gradient)"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M1596.063,1102.9l19.489,69.527-60.1,40.02-56.634-44.793,25.1-67.7Z" fill="#f6f6f6" opacity="0.078"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="35.5" cy="35.5" r="35.5" transform="translate(1607 1191)" fill="#f6f6f6" opacity="0.078"/>
+  </g>
+</svg>

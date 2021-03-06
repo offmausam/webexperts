@@ -1,0 +1,18 @@
+.faq-card {
+  padding: 75px;
+}
+
+.faq {
+  .question {
+    text-decoration: none;
+    color: $dark-text-color;
+
+    &.active {
+      color: $accent-text-color;
+    }
+  }
+
+  .border-bottom {
+    border-color: $border-color-300;
+  }
+}

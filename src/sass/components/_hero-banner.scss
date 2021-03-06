@@ -1,0 +1,91 @@
+.hero-banner {
+  background-image: url(../svg/hero-bg-shapes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 150px -100px;
+
+  .content-wrapper {
+    padding: 250px 0 200px;
+  }
+}
+
+.hero-text {
+  position: relative;
+  right: 15%;
+
+  h1 {
+    line-height: 93%;
+    font-weight: bolder;
+    margin-bottom: 40px;
+  }
+}
+
+.accent-text-color {
+  color: $accent-text-color;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-brand {
+  img {
+    height: 156px;
+  }
+}
+
+.nav-link {
+  position: relative;
+  font-weight: bold;
+  color: $dark-text-color;
+
+  &:hover {
+    color: $accent-text-color;
+  }
+
+  &.active {
+    color: $accent-text-color;
+
+    &::after {
+      content: url(../../svg/active-link.svg);
+      position: absolute;
+      left: 5px;
+      bottom: 0;
+    }
+  }
+}
+
+.hero-person {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.highlight-area {
+  background-color: #511de5;
+  background-color: linear-gradient(90deg, #511de5 0%, #009eff 100%);
+  padding: 45px 0;
+  position: relative;
+
+  .w-logo {
+    height: 200px;
+    position: absolute;
+    top: -80px;
+    left: 20%;
+  }
+
+  h3 {
+    font-size: 26px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .highlight-shapes {
+    position: absolute;
+    right: 10%;
+    transform: scale(0.7);
+  }
+}

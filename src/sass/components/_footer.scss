@@ -1,0 +1,21 @@
+footer {
+  background-image: url(../svg/footer.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 600px 0 50px;
+  margin-top: -530px;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-right: 12px;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}

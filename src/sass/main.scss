@@ -1,1 +1,15 @@
-@import "components/base"
+//bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//variable
+@import "abstracts/variables.scss";
+
+//components
+@import "components/base";
+@import "components/hero-banner";
+@import "components/features";
+@import "components/quote";
+@import "components/effciency";
+@import "components/feedback";
+@import "components/faq";
+@import "components/footer";
